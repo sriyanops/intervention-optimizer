@@ -49,7 +49,7 @@ The outputs are designed to support:
 
 ### Scenario Input Data
 
-**`data/sample_inputs.csv`**
+**[`data/sample_inputs.csv`](data/sample_inputs.csv)**
 
 Each row represents a capacity-gap scenario requiring intervention.
 
@@ -84,7 +84,7 @@ This mirrors real-world operations practice: when SLA failure is unavoidable, re
 
 ### 1. Executive PDF Report (Primary Artifact)
 
-**`outputs/intervention_brief.pdf`**
+**[`outputs/intervention_brief.pdf`](outputs/intervention_brief.pdf)**
 
 The PDF is designed to be readable by non-technical stakeholders while preserving full decision transparency.
 
@@ -102,10 +102,10 @@ The PDF is designed to be readable by non-technical stakeholders while preservin
 
 ### 2. CSV Outputs (Analyst / Audit Trail)
 
-- **`outputs/recommendations.csv`**  
+- **[`outputs/recommendations.csv`](outputs/recommendations.csv)**  
   Final recommended intervention per scenario.
 
-- **`outputs/intervention_option_results.csv`**  
+- **[`outputs/intervention_option_results.csv`](outputs/intervention_option_results.csv)**  
   Full evaluation of every option across all scenarios, including:
   - recovered units
   - unmet units
@@ -116,7 +116,6 @@ The PDF is designed to be readable by non-technical stakeholders while preservin
 
 These outputs provide a complete audit trail and support deeper analysis if required.
 
----
 
 ### 3. Console Output (Development Validation)
 
