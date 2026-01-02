@@ -1,0 +1,4 @@
+scenario_id,site_id,horizon_days,forecast_demand_units,available_capacity_units,ot_cost_per_hour,ot_units_per_hour,max_ot_hours,temp_cost_per_unit,max_temp_units,reroute_cost_per_unit,max_reroute_units,outsourcing_cost_per_unit,max_outsource_units,late_cost_per_unit,sla_target_fill_rate,sla_breach_penalty,service_premium_cap
+SCN_001,SITE_A,7,12000,10000,45,50,30,4.5,1200,2.0,1500,6.5,3000,8.0,0.95,25000,1.15
+SCN_002,SITE_B,7,18000,15000,52,45,20,5.0,900,2.5,1000,7.0,2000,9.0,0.97,40000,1.15
+SCN_003,SITE_C,7,9500,9000,40,55,15,4.0,600,1.8,800,6.0,1500,6.5,0.96,15000,1.15
